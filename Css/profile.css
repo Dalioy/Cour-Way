@@ -1,0 +1,117 @@
+.profile{
+    background-image: url("proj_background.jpg");
+    background-size: cover; 
+    background-position: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.first_part{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 10px; 
+    
+}
+
+.contact{
+    background-color: rgba(255, 255, 255, 0.50); 
+    backdrop-filter: blur(50%); 
+    border: 1px solid black; 
+    border-radius: 2%;
+    margin-top: 33px;
+    margin-left: 85px;
+    margin-right: 200px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.4);
+}
+
+.profile_pic{
+    background-color: rgba(255, 255, 255, 0.50); 
+    backdrop-filter: blur(50%); 
+    margin-top: 33px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 300px; 
+    overflow: hidden; 
+}
+
+.Profile_Pic_buttonsP{
+    display: grid;
+    place-items: center;
+    margin-bottom: 10px;
+}
+
+.pic{
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+
+.profile_contact{
+    background-color: rgba(255, 255, 255, 0.50); 
+    backdrop-filter: blur(50%); 
+}
+
+.Profile_buttons{
+    display: grid;
+    place-items: center;
+}
+
+.Profile_buttons_CSS{
+    display: grid;
+    place-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.about{
+    padding-bottom: 200px;
+    
+}
+
+.info{
+    border: 40px;
+    margin-top: 33px;
+    background-color: rgba(255, 255, 255, 0.50); 
+    backdrop-filter: blur(50%); 
+    padding-left: 20px;
+    
+    margin-right: 85px;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    border-radius: 2%;
+    border: 1px solid black; 
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.4);
+    
+}
+
+.edit_button{
+    text-align: right;
+    float: right;
+    margin-right: 26px;
+    margin-bottom: 10;
+}
+
+.info_lines{
+    padding-right: 20px;
+    
+}
+
+.info_input{
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 14px;
+    margin-top: 5px;
+    padding-right: 150px;
+    padding-top: 7px;
+    padding-left: 15px;
+    padding-bottom: 7px;
+    font-size: 15px;
+    display: flex;
+}
+
+.support{
+    background-color: rgba(0, 0, 97);
+    border: 1px solid black; 
+    margin-top: 50px;
+}
