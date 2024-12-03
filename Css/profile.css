@@ -1,6 +1,5 @@
-
-.profile{
-
+.sidebar a {
+  text-decoration: none;
 }
 
 .first_part{
@@ -59,10 +58,6 @@
     border: solid black;
 }
 
-.profile_contact{
-   
-}
-
 .name_style{
     text-align: center;
     background-color: #0474fc;
@@ -82,11 +77,6 @@
     place-items: center;
     padding-left: 100px;
     padding-right: 100px;
-}
-
-.about{
-    
-    
 }
 
 .profile_logo{

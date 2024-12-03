@@ -257,4 +257,82 @@ p {
     unicode-bidi: isolate;
 }
 
+.plans-page {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    display: grid;
+    margin: 25px;
+    gap: 14px;
+}
+
+.plan {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    width: 300px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.plan a {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.plan .price {
+    font-size: 20px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.plan ul {
+    list-style: none;
+    padding: 20px;
+}
+
+.plan ul li {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.free {
+    border-color: #4CAF50;
+}
+
+.basic {
+    border-color: #2196F3;
+}
+
+.premium {
+    border-color: #FFA500;
+}
+
+.free a {
+    color: white;
+}
+
+.basic a {
+    color: white;
+}
+
+.premium a {
+    color: white;
+}
+.s1{
+    border: 1px solid white;
+    border-style:groove;
+    border-radius: 2px;
+    background-color:#4CAF50; 
+
+}
+.s2{
+    border: 1px solid white;
+   border-style:groove;
+   border-radius: 2px;
+   background-color:blue; 
+}
+.s3{
+    border: 1px solid white;
+   border-style:groove;
+   border-radius: 2px;
+   background-color:orange; 
+}
 
