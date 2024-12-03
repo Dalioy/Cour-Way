@@ -26,7 +26,7 @@ if(!empty($_SESSION["id"])){
            $_SESSION["id"] = $row["user_id"];
            
            if ($row['role'] == 'Teacher') {
-            header("Location: T.html");
+            header("Location: ModifierCourses.html");
         } else {
             header("Location: Courses.html");
         }
