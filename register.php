@@ -10,7 +10,9 @@ if ($conn->connect_error) {
 }
 
 if(isset($_POST["submit"])){
-    $name = $_POST["name"];
+    $first_name = $_POST["first_name"];
+    $last_name = $_POST["last_name"];
+    $phone_num = $_POST['phone_num'];
     $email = $_POST["email"];
     $password = $_POST["password"];
     $role = $_POST['role'];
@@ -24,7 +26,7 @@ if(isset($_POST["submit"])){
     }
     else{
 
-        $query = "INSERT INTO users VALUES('', '$name', '$email', '$password', '$role', '$date')";
+        $query = "INSERT INTO users VALUES('', '$first_name', '$last_name', '$phone_num', '$email', '$password', '$role', '$date')";
         mysqli_query($conn, $query);
         echo "<script> alert('Registration Successful');</script>";
     }
