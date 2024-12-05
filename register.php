@@ -1,13 +1,5 @@
 <?php
-$servername = "localhost"; 
-$username = "root"; 
-$password = ""; 
-$dbname = "courway"; 
-$conn = new mysqli($servername, $username, $password, $dbname);
-
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-}
+require 'connection.php';
 
 if(isset($_POST["submit"])){
     $first_name = $_POST["first_name"];
@@ -18,14 +10,6 @@ if(isset($_POST["submit"])){
     $role = $_POST['role'];
     $date = date("Y-m-d H:i:s"); 
     // $encrypted_password = md5($password);
-
-//CREATE DATABASE courway 
-// CREATE TABLE users(
-//
-//
-//
-//
-//);
 
     $duplicate = mysqli_query($conn,"SELECT * FROM users WHERE email = '$email'");
     if(mysqli_num_rows($duplicate) > 0){

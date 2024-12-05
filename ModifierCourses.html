@@ -30,6 +30,33 @@
     <!--end head-->
     <!--Start page -->
     <div class="page">
+      <div class="content">
+        <div class="modifier">
+           <div class="add_course">
+            <div class="imag_sec">
+              <header>Course Uploader</header>
+              <form action="#">
+                <input type="file" class="file-input" name ="file" hidden>
+                <i class ="fas fa-cloud-upload-alt"></i>
+                <p>Browse Image to Upload</p>
+              </form>
+              <section class="progress-area"></section>
+              <section class="uploading_area"></section>
+            </div>
+            <div class="info">
+              <input type="text" name="course_title" id="course_title" placeholder="Enter your course title"><br>
+              <textarea type="text" name="course_description"id="course_description" placeholder="Enter your course Description"></textarea><br>
+              <input type="text" name="course_category"id="course_category" placeholder="Category"><br>
+            </div>
+            <div class="submit">
+                <input type="text" name="course_price" id="course_price" placeholder="Enter Course's price">
+                <input type="submit" id="course_title">
+            </div>
+           </div>
+        </div>
+      </div>
     </div>
+
+    <script src="JS/modifer.js"></script>
 </body>
 </html>
