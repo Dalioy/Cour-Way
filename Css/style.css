@@ -114,7 +114,7 @@ body {
     min-height: 100vh;
 }
 
-.sidebar{
+/* .sidebar{
     background-color: white;
     padding: 20px;
     position: relative;
@@ -163,7 +163,7 @@ body {
 .sidebar ul li a span {
     font-size: 14px;
     margin-left: 10px;
-}
+} */
 
 .content {
     overflow: hidden;
@@ -276,11 +276,6 @@ p {
 .plan a {
     font-size: 24px;
     margin-bottom: 10px;
-}
-.plan .price {
-    font-size: 20px;
-    color: #555;
-    margin-bottom: 20px;
 }
 
 .plan ul {
