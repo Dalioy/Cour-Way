@@ -1,0 +1,121 @@
+.body{
+    background-image: url("../imgs/cool-background\ \(3\)\ \(1\).png");
+}
+
+.content{
+    background-image: url("../imgs/cool-background\ \(3\)\ \(1\).png");
+}
+
+.part_one{
+    margin-left: 350px;
+
+}      
+
+
+.info_lines{
+    padding-right: 20px;
+    padding-right: 20px;
+    font-family: "Open Sans", sans-serif;
+    
+    }
+
+.info_input{
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 14px;
+    padding-right: 150px;
+    padding-top: 7px;
+    padding-left: 15px;
+    padding-bottom: 7px;
+    font-size: 15px;
+    display: flex;
+    font-family: "Open Sans", sans-serif;
+}
+
+
+/*Store*/
+.about-container {
+    margin-top: 25px;
+    margin-left: 50px;
+    margin-right: 1500px;
+    padding: 20px;
+    background-color: #ffffff; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all ease-in-out 0.3s;
+  }
+
+
+
+  .about-container h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+  }
+
+
+  .about-container p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+    text-align: justify;
+  }
+
+ 
+  .about-container:hover {
+    transform: scale(1.05);
+    
+  }
+
+a {
+color: #000000; 
+text-decoration: none; 
+}
+
+a:hover {
+color: #000000; 
+text-decoration: none; 
+transition: all ease-in-out 0.3s;
+box-shadow: 2 2 15px #ec540e;
+color: #ec540e;
+}
+
+.about_ancores{
+padding: 30px;
+transition: all ease-in-out 0.3s;
+
+}
+
+.about_buttons{
+justify-content: center; 
+align-items: center;
+display: flex;
+
+}
+
+.about_button{
+background: linear-gradient(140.14deg, #ec540e 15.05%, #d6361f 114.99%)
+padding-box,
+linear-gradient(142.51deg, #ff9465 8.65%, #af1905 88.82%) border-box;
+border-radius: 7px;
+border: 2px solid transparent;
+
+text-shadow: 1px 1px 1px #00000040;
+box-shadow: 8px 8px 20px 0px #45090059;
+margin-right: 25px;
+margin-left: 25px;
+padding: 10px 40px;
+line-height: 20px;
+cursor: pointer;
+transition: all 0.3s;
+color: white;
+font-size: 18px;
+font-weight: 500;
+}
+
+.about_button:hover {
+box-shadow: none;
+opacity: 80%;
+}
