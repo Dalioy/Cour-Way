@@ -1,4 +1,4 @@
-const form = document.querySelector("form"),
+const form = document.querySelector(".form1"),
 fileInput = form.querySelector(".file-input"),
 progressArea = document.querySelector(".progress-area"),
 uploadedArea = document.querySelector(".uploading_area");
@@ -61,6 +61,6 @@ function uploadFile(name){
             //uploadedArea.insertAdjacentHTML("afterbegin", uploadedHTML);
         }
     });
-    let formData = new FormData(form); // formData is an object to easily send form data
-    xhr.send(formData); // sending form data to php
+    let formData = new FormData(form); //formData is an object to easily send form data
+    xhr.send(formData); //sending form data to php
 }

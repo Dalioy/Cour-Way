@@ -14,7 +14,7 @@ if(!empty($_SESSION["id"])){
     if(mysqli_num_rows($result) > 0){
         if($password == $row["password"]){
            $_SESSION["login"] = true;
-           $_SESSION["id"] = $row["user_id"];
+           $_SESSION["id"] = $row["id"];
            
            if ($row['role'] == 'Teacher') {
             header("Location: ModifierCourses.html");
