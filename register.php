@@ -19,6 +19,13 @@ if(isset($_POST["submit"])){
     $date = date("Y-m-d H:i:s"); 
     // $encrypted_password = md5($password);
 
+//CREATE DATABASE courway 
+// CREATE TABLE users(
+//
+//
+//
+//
+//);
 
     $duplicate = mysqli_query($conn,"SELECT * FROM users WHERE email = '$email'");
     if(mysqli_num_rows($duplicate) > 0){
